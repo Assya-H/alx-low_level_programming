@@ -1,19 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
-  * main - the main entry of the program
-  * Return: Always 0 (secusess)
-  */
+ * main - Entry point
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	int i = 0;
-	char arr[8] = "_putchar";
-
-	while (i < 8)
-	{
-		putchar (arr[i]);
-		i++;
-	}
-	putchar ('\n');
+	printf("_putchar\n");
 	return (0);
 }
